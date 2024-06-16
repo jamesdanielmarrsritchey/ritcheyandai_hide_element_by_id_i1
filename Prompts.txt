@@ -1,0 +1,10 @@
+jamesdanielmarrsritchey: Using Javascript, write a function which changes an element to display:none by the element ID.
+
+GitHub Copilot: ```javascript
+function hideElementById(elementId) {
+  const element = document.getElementById(elementId);
+  if (element) {
+    element.style.display = 'none';
+  }
+}
+```
